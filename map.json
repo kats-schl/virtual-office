@@ -37,7 +37,7 @@
                 {
                  "name":"exitSceneUrl",
                  "type":"string",
-                 "value":"..\/outdoor.json"
+                 "value":"..\/virtual-office\/outdoor.json"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -55,7 +55,7 @@
                 {
                  "name":"exitSceneUrl",
                  "type":"string",
-                 "value":"..\/outdoor.json"
+                 "value":"..\/virtual-office\/outdoor.json"
                 }],
          "type":"tilelayer",
          "visible":true,
