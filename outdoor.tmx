@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="10" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="1">
+ <editorsettings>
+  <export target="outdoor.json" format="json"/>
+ </editorsettings>
+ <tileset firstgid="1" source="floortileset.tsx"/>
+ <layer id="2" name="start" width="10" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,53,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,61,0,
+0,0,0,0,0,0,61,61,61,0,
+0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="1" name="Kachelebene 1" width="10" height="10">
+  <data encoding="csv">
+60,60,60,60,1,1,60,60,60,60,
+60,62,60,60,1,13,62,60,62,60,
+60,63,58,60,1,1,60,63,60,62,
+60,63,60,1,13,1,13,3,62,60,
+62,60,60,11,11,13,11,3,60,60,
+60,60,58,11,11,11,11,13,61,60,
+61,60,60,3,3,11,11,3,60,61,
+61,62,62,62,60,62,60,63,61,60,
+60,62,61,61,61,62,63,61,61,60,
+60,62,62,62,61,62,62,62,60,60
+</data>
+ </layer>
+</map>
