@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="10" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="1">
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="10" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="1">
  <editorsettings>
   <export target="outdoor.json" format="json"/>
  </editorsettings>
- <tileset firstgid="1" source="floortileset.tsx"/>
+ <tileset firstgid="1" name="floortileset" tilewidth="32" tileheight="32" tilecount="64" columns="8">
+  <image source="floortileset.png" width="256" height="256"/>
+ </tileset>
  <layer id="2" name="start" width="10" height="10">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,
@@ -32,4 +34,5 @@
 60,62,62,62,61,62,62,62,60,60
 </data>
  </layer>
+ <objectgroup id="3" name="floorLayer"/>
 </map>
