@@ -55,7 +55,7 @@
                 {
                  "name":"exitSceneUrl",
                  "type":"string",
-                 "value":"..\/virtual-office\/map2.json"
+                 "value":"..\/virtual-office\/outdoor.json"
                 }],
          "type":"tilelayer",
          "visible":true,
