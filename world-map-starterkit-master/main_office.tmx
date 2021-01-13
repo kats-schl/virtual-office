@@ -136,9 +136,7 @@
  <tileset firstgid="2670" name="c3gelb" tilewidth="32" tileheight="32" tilecount="1024" columns="16">
   <image source="tiles_png/community/cert/imgs/tilesheets/c3gelb.png" width="512" height="2048"/>
  </tileset>
- <tileset firstgid="3694" name="pokemon_tileset_from_public_tiles_32x32_by_chaoticcherrycake_dab2byf" tilewidth="32" tileheight="32" tilecount="5208" columns="8">
-  <image source="../tile_sets/pokemon_tileset_from_public_tiles_32x32_by_chaoticcherrycake_dab2byf.png" width="256" height="20832"/>
- </tileset>
+ <tileset firstgid="3694" source="pokemon_tileset.tsx"/>
  <layer id="9" name="start" width="60" height="40">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
