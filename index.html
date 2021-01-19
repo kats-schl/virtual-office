@@ -9,13 +9,44 @@
                 }
                 var url = 'https://play.workadventu.re/_/global/'+window.location.host+path+'office.json';
                 document.getElementById('mapLink').href = url;
-                document.getElementById('mapLink').innerText = url;
+                document.getElementById('mapLink').innerText = 'Virtuelle Büro';
             };
         </script>
     </head>
+    <style>
+    body{
+      background-color: #ffe500
+    }
+    h1{
+      color: #e5007d
+    }
+    p{
+      color: #009ee3
+    }
+    </style>
+
     <body>
+
+
+      <!-- Hinweis zu Chrome/ andere Browser. Interesse an Apple-Browsern.
+      Hinweis zu Lautlos-Zeichen und Hinweis zu Video-Chat Zeichen.
+
         This website contains a map for <a href="https://workadventu.re">Workadventu.re</a>.
         <br/><br/>
-        You can access this map at <a id="mapLink" href=""></a>
+        -->
+        <br> <br>
+
+        <h1> Willkommen im virtuellen Büro :) </h1>
+        <b> Über folgenden Link geht's direkt ins  <a id="mapLink" href=""></a>.
+        <br> <br> <br>
+        <b> Ein paar kurze Hinweise zur Map: </b> <br>
+        <table>
+
+          <tr>  <td> <img src="tiles_png/kats/videosymbol_1.png"></td>   <td><br>Dieses Symbol steht für eine <b>Silent-Zone</b>. In diesen Bereichen
+          öffnet sich kein Videochat, auch wenn Avatare beieinander stehen. <br> <br> </td></tr>
+          <tr> <td> <img src="tiles_png/kats/videosymbol_2.png"></td>  <td>Dieses Symbol steht für einen <b>Video-Konferenz-Raum</b>. Betritt man mit dem Avatar den entsprechenden Bereich, öffnet sich rechts im Bild ein Jitsi-Raum. </td> </tr>
+
+        </table>
+
     </body>
 </html>
