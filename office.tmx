@@ -96,7 +96,7 @@
  </layer>
  <layer id="14" name="info_url" width="40" height="40">
   <properties>
-   <property name="openWebsite" value="https://www.bundestag.de/tagesordnung"/>
+   <property name="openWebsite" value="https://docs.google.com/document/d/1Qg7ncXeZWmxLUkS_ErXYarLJ9yqC-mMEcqYw0OaxiZ0/edit?usp=sharing"/>
   </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
