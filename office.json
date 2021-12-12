@@ -32,7 +32,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"small.json#start"
+                 "value":"medium.json#start"
                 }],
          "type":"tilelayer",
          "visible":true,
